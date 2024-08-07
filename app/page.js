@@ -149,7 +149,7 @@ export default function Home() {
                 pl={2}
                 pr={2}
               >
-                <ReactMarkdown className="markdown-content" children={message.content} />
+                <ReactMarkdown className="markdown-content">{message.content}</ReactMarkdown>
               </Box>
             </Box>
           ))}
